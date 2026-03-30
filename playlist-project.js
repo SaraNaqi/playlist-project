@@ -5,7 +5,9 @@
 import { LitElement, html, css } from "lit";
 import { DDDSuper } from "@haxtheweb/d-d-d/d-d-d.js";
 import { I18NMixin } from "@haxtheweb/i18n-manager/lib/I18NMixin.js";
-
+import "./playlist-slide.js";
+import "./playlist-arrow.js";
+import "./playlist-dot-nav.js";
 /**
  * `playlist-project`
  * 
@@ -18,14 +20,27 @@ export class PlaylistProject extends DDDSuper(I18NMixin(LitElement)) {
     return "playlist-project";
   }
 
+  static get properties() {
+    return {
+      ...super.properties,
+      title: {type: String},
+      currentIndex: {type: Number},
+      totalSlides: {type:Number},
+      foxImage: { type: String}
+    };
+  }
+
   constructor() {
     super();
-    this.title = "";
+    this.title = "My Playlist";
+    this.currentIndex = 0;
+    this.totalSlides = 0;
     this.t = this.t || {};
     this.t = {
       ...this.t,
       title: "Title",
     };
+
     this.registerLocalization({
       context: this,
       localesPath:
@@ -34,14 +49,17 @@ export class PlaylistProject extends DDDSuper(I18NMixin(LitElement)) {
     });
   }
 
-  // Lit reactive properties
-  static get properties() {
-    return {
-      ...super.properties,
-      title: { type: String },
-    };
+  connectedCallback() {
+    super.connectedCallback();
+    this.loadFox();
   }
 
+  async loadFox() {
+    const res = await fetch("https://randomfox.ca/floof/");
+    const data = await res.json();
+    this.foxImage = data.image;
+  }
+  
   // Lit scoped styles
   static get styles() {
     return [super.styles,
@@ -56,6 +74,27 @@ export class PlaylistProject extends DDDSuper(I18NMixin(LitElement)) {
         margin: var(--ddd-spacing-2);
         padding: var(--ddd-spacing-4);
       }
+
+      .slider {
+       overflow: hidden;
+       width: 100%;
+       margin: 16px 0;
+      }
+
+      .slides {
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .card {
+        max-width:400px;
+        margin: 20px auto;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        padding: 16px;
+      }
+
       h3 span {
         font-size: var(--playlist-project-label-font-size, var(--ddd-font-size-s));
       }
@@ -67,6 +106,16 @@ export class PlaylistProject extends DDDSuper(I18NMixin(LitElement)) {
     return html`
 <div class="wrapper">
   <h3><span>${this.t.title}:</span> ${this.title}</h3>
+
+
+  <div class = "card">
+    <h2>Random fox </h2>
+
+    ${this.foxImage ? html`<img src ="${this.foxImage}" alt="Random fox" style = "width: 100%; border-radius: 10px;"/>`
+    : html`<p>Loading....</p>`}
+
+    <button @click=${this.loadFox}> Load new fox </button>
+  </div>
   <slot></slot>
 </div>`;
   }

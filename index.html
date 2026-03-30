@@ -12,14 +12,18 @@
       margin: var(--ddd-spacing-0);
       padding: var(--ddd-spacing-0);
     }
+
     #demo {
       margin: var(--ddd-spacing-2);
     }
+
     playlist-project {
       margin: var(--ddd-spacing-2);
       border: var(--ddd-border-md);
       border-radius: var(--ddd-radius-lg);
+      display: block;
     }
+
     playlist-project:hover {
       box-shadow: var(--ddd-boxShadow-sm);
     }
@@ -28,21 +32,32 @@
       background-color: var(--ddd-accent-2);
       color: var(--ddd-primary-17);
     }
+
   </style>
+
   <title>playlist-project</title>
 </head>
 
 <body>
-  <div id="demo">
-    <h1>playlist-project</h1>
-    <!-- this is going to do whatever the tag's defaults are -->
-    <h2>Default</h2>
-    <playlist-project></playlist-project>
-    <h2>Slot usage</h2>
-    <playlist-project data-accent="2" data-primary="17"><div>Sample slot content</div></playlist-project>
-    <h2>Property usage</h2>
-    <playlist-project id="example" title="Sample property title"></playlist-project>
+  <div id= "demo">
+    <playlist-project title="My Playlist">
+
+    <playlist-slide top-heading="Top line heading"
+    second-heading="Slide 1">
+    <p> anotheer content here for slide 1</p>
+    </playlist-slide>
+
+    <playlist-slide top-heading="Top line heading" second-heading=" Slide 2">
+      <p> content for slide 2</p>
+      </playlist-slide>
+
+      <playlist-slide top-heading="Top line heading" second-heading="Slide 3">
+        <p> content for slide 3 </p>
+      </playlist-slide>
+    </playlist-project>
   </div>
+
+
   <script type="module" src="./playlist-project.js"></script>
 
   <!-- Take HAX, the Web and you further down the rabbit hole -->
@@ -81,51 +96,5 @@
       color: var(--ddd-theme-default-globalNeon);
     }
   </style>
-  <details id="follow-the-white-rabbit" open>
-    <summary>How to Develop</summary>
-    <div class="content">
-      <p>
-      
-        <strong>Checkout project on github:</strong> <a href="https://github.com/SaraNaqi/playlist-project" target="_blank" rel="nofollow">SaraNaqi/playlist-project</a>
-        
-      </p>
-      <p>
-        You can edit the current page by modifying <code>index.html</code><br />
-        To edit your <strong>playlist-project</strong> tag, modify <code>src/playlist-project.js</code>.
-        This file contains all the HTML, CSS and JavaScript used to render your elements above!
-      </p>
-      <p>
-        Web components are easy to follow once you get used to their pattern.
-        Below are links to help on your journey. Good luck, we need you!
-      </p>
-      <ul>
-        <li><a href="https://haxtheweb.org/documentation/ddd" target="_blank">🧑‍🎨 Learn DDD HAX Design system</a></li>
-        <li><a href="https://lit.dev/playground/" target="_blank" rel="nofollow">🔥 Learn Lit</a></li>
-        <li><a href="https://hax.psu.edu" target="_blank">🧙 HAX The Web @ Penn State</a></li>
-      </ul>
-      <h2>Join and Share HAX</h2>
-      <ul>
-        <li><a href="https://github.com/haxtheweb/issues/issues" target="_blank" rel="nofollow">🔮 Ideas to HAX Harder, Better, Faster, Stronger</a></li>
-        <li><a href="https://bit.ly/hax-the-linkedin" target="_blank" rel="nofollow">👔 Share on LinkedIn</a></li>
-        <li><a href="https://bit.ly/hax-the-x" target="_blank" rel="nofollow">🧵 Tweet on X</a></li>
-        <li><a href="https://bit.ly/hax-discord" target="_blank" rel="nofollow">💬 Join Community</a></li>
-      </ul>
-      <h2>Learn the languages and tools</h2>
-      <ul>
-        <li><a href="https://w3schools.com" target="_blank" rel="nofollow">🌐 Learn HTML</a></li>
-        <li><a href="https://web.dev/learn/css/" target="_blank" rel="nofollow">🎨 Learn CSS</a></li>
-        <li><a href="http://Javascript.info" target="_blank" rel="nofollow">💻 Learn JavaScript (JS)</a></li>
-        <li><a href="https://gitimmersion.com" target="_blank" rel="nofollow">🦺 Learn Git / Github</a></li>
-        <li><a href="https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/" target="_blank" rel="nofollow">📦 Learn NPM</a></li>
-        <li><a href="http://learnux.io" target="_blank" rel="nofollow">📐 Learn UX / UI development</a></li>
-      </ul>
-      <h2>Find purpose and inspiration</h2>
-      <ul>
-        <li><a href="https://www.youtube.com/watch?v=eC7xzavzEKY" target="_blank" rel="nofollow">🐟 This is Water - David Foster Wallace</a></li>
-        <li><a href="https://www.youtube.com/watch?v=kYfNvmF0Bqw" target="_blank" rel="nofollow">🏗️ Secrets of Life - Steve Jobs</a></li>
-        <li><strong>💡 <em>Never. Stop. Innovating.</em></strong></li>
-      </ul>
-    </div>
-  </details>
 </body>
 </html>
