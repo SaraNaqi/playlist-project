@@ -1,0 +1,259 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Supernova Burst",
+            "caption": "A massive stellar explosion captured in deep space!",
+            "dateTaken": "2025-01-12",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/00/Crab_Nebula.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Crab_Nebula.jpg",
+            "alt": "picture of Crab nebula supernova remenant",
+            "author": {
+                "name": "Galaxy explorer",
+                "image": "https://i.pinimg.com/236x/e7/2d/d1/e72dd1d43fd80e198d6f84846e6ca14e.jpg",
+                "userSince": "2023",
+                "channel": "Galaxy wiki"
+            },
+            "slideHeading": "Slide 1",
+            "slideText": "this page shows the supernova theme and can show you how giant stars can explode and leave glowing remains behind."
+        },
+        {
+            "id": 2,
+            "title": "Galaxy Light",
+            "caption": "Galaxies hold billions of stars.",
+            "dateTaken": "2025-01-18",
+            "thumbnail": "https://cdn.mos.cms.futurecdn.net/MwAtZXejfyLn75472eoVbE.jpg",
+            "image": "https://cdn.mos.cms.futurecdn.net/MwAtZXejfyLn75472eoVbE.jpg",
+            "alt": "Sombrero Galaxy",
+            "author": {
+                "name": "Astro Feed",
+                "image": "https://i.pinimg.com/474x/17/54/87/17548777b3041a54e8f444d6a1a44fe3.jpg",
+                "userSince": "2021",
+                "channel": "Galaxy watch"
+            },
+            "slideHeading": "Slide 2",
+            "slideText": "this page is about galaxies and how their shape and light help astronomers study the universe!"
+        },
+        {
+            "id": 3,
+            "title": "Cosmic Glow",
+            "caption": "colorful regions in space are shaped by time and energy.",
+            "dateTaken": "2025-01-24",
+            "thumbnail": "https://dq0hsqwjhea1.cloudfront.net/M8-Gabor-Toth-480x274.jpg",
+            "image": "https://dq0hsqwjhea1.cloudfront.net/M8-Gabor-Toth-480x274.jpg",
+            "alt": "lagoon nabula",
+            "author": {
+                "name": "Galaxy explorer",
+                "image": "https://i.pinimg.com/236x/e7/2d/d1/e72dd1d43fd80e198d6f84846e6ca14e.jpg",
+                "userSince": "2023",
+                "channel": "Galaxy wiki"
+            },
+            "slideHeading": "Slide 3",
+            "slideText": "The colors in space images come from different gases like hydrogen and oxygen reacting to energy from nearby stars"
+        },
+        {
+            "id": 4,
+            "title": "star field",
+            "caption": "Deep space shows layers of light gas and cosmic dust",
+            "dateTaken": "2025-02-01",
+            "thumbnail": "https://c02.purpledshub.com/uploads/sites/48/2020/03/12.DavidShaw_MonkeyHeadNebula-0d7e520.jpg?w=1200&webp=1",
+            "image": "https://c02.purpledshub.com/uploads/sites/48/2020/03/12.DavidShaw_MonkeyHeadNebula-0d7e520.jpg?w=1200&webp=1",
+            "alt": "NGC 2174 nebula image",
+            "author": {
+                "name": "Green Alien",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7R0oiz_yvVW4Wvm-oAHzFlEvbJlxGlvxTw&s",
+                "userSince": "2022",
+                "channel": "Green Galaxy"
+            },
+            "slideHeading": "Slide 4",
+            "slideText": "when we look at deep space we are looking back in time because light from distance stars take years to reach to earth!"
+        },
+        {
+            "id": 5,
+            "title": "Black Hole",
+            "caption": "black holes have gravity so strong that not even light can escape!",
+            "dateTaken": "2025-02-10",
+            "thumbnail": "https://cdn.mos.cms.futurecdn.net/MwAtZXejfyLn75472eoVbE.jpg",
+            "image": "https://cdn.mos.cms.futurecdn.net/iWbt6ewM92P2v22WEmcDoi.jpg",
+            "alt": "black hole image",
+            "author": {
+                "name": "Green Alien",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7R0oiz_yvVW4Wvm-oAHzFlEvbJlxGlvxTw&s",
+                "userSince": "2022",
+                "channel": "Green Galaxy"
+            },
+            "slideHeading": "Slide 5",
+            "slideText": "Black holes is from when massive stars collapses and their gravity is so strong that it bends space and time around them"
+        },
+        {
+            "id": 6,
+            "title": "Moon Surface",
+            "caption": "The moon shows craters, rocky details and shadows.",
+            "dateTaken": "2025-03-14",
+            "thumbnail": "https://media.istockphoto.com/id/1217941332/photo/close-up-super-moon.jpg?s=612x612&w=0&k=20&c=itbDa6W7QYZZ-WVueCYJbVLp3kgEqVeOxflL7p-ZThY=",
+            "image": "https://media.istockphoto.com/id/1217941332/photo/close-up-super-moon.jpg?s=612x612&w=0&k=20&c=itbDa6W7QYZZ-WVueCYJbVLp3kgEqVeOxflL7p-ZThY=",
+            "alt": "Moon surface",
+            "author": {
+                "name": "Astro Feed",
+                "image": "https://i.pinimg.com/474x/17/54/87/17548777b3041a54e8f444d6a1a44fe3.jpg",
+                "userSince": "2021",
+                "channel": "Galaxy watch"
+            },
+            "slideHeading": "Slide 6",
+            "slideText": "The moon's surface help scientists with knowing the history of our solar system."
+        },
+        {
+            "id": 7,
+            "title": "Red planet",
+            "caption": "Mars is Known as the Red planet since its a dusty land and has a reddish color!",
+            "dateTaken": "2025-06-19",
+            "thumbnail": "https://c02.purpledshub.com/uploads/sites/41/2025/11/mars-red-surface.jpg?webp=1&w=1200",
+            "image": "https://c02.purpledshub.com/uploads/sites/41/2025/11/mars-red-surface.jpg?webp=1&w=1200",
+            "alt": "Mars the red planet image",
+            "author": {
+                "name": "Galaxy explorer",
+                "image": "https://i.pinimg.com/236x/e7/2d/d1/e72dd1d43fd80e198d6f84846e6ca14e.jpg",
+                "userSince": "2023",
+                "channel": "Planet report"
+            },
+            "slideHeading": "Slide7",
+            "slideText": "Mars is known as the red planet due to the iron rich dust that covers much of its surface."
+        },
+        {
+            "id": 8,
+            "title": "Saturn rings",
+            "caption": "saturn has a huge ring system",
+            "dateTaken": "2025-06-06",
+            "thumbnail": "https://plus.unsplash.com/premium_photo-1717620945788-80842b6153dd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8f",
+            "image": "https://plus.unsplash.com/premium_photo-1717620945788-80842b6153dd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8f",
+            "alt": "Saturn rings image",
+            "author": {
+                "name": "Galaxy explorer",
+                "image": "https://i.pinimg.com/236x/e7/2d/d1/e72dd1d43fd80e198d6f84846e6ca14e.jpg",
+                "userSince": "2023",
+                "channel": "Planet report"
+            },
+            "slideHeading": "Slide 8",
+            "slideText": "Saturn rings are made from ice and rocks."
+        },
+        {
+            "id": 9,
+            "title": "Dying star",
+            "caption": "A star nearing the end of its life before a supernova explosion.",
+            "dateTaken": "2025-04-02",
+            "thumbnail": "https://science.nasa.gov/wp-content/uploads/2023/04/hubble_friday_07302015-jpg.webp",
+            "image": "https://science.nasa.gov/wp-content/uploads/2023/04/hubble_friday_07302015-jpg.webp",
+            "alt": "dying star image",
+            "author": {
+                "name": "Green Alien",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7R0oiz_yvVW4Wvm-oAHzFlEvbJlxGlvxTw&s",
+                "userSince": "2022",
+                "channel": "Star life"
+            },
+            "slideHeading": "Slide 9",
+            "slideText": "Before a supernova happens, star expands and become unstable showing bright colors and gas clouds around them."
+        },
+        {
+            "id": 10,
+            "title": "Supernova shockwave",
+            "caption": " After a massive star explosion energy spreads outwards",
+            "dateTaken": "2025-08-08",
+            "thumbnail": "https://cdn.mos.cms.futurecdn.net/EoTkj7xeNHzXYV4gGYRisD.jpg",
+            "image": "https://cdn.mos.cms.futurecdn.net/EoTkj7xeNHzXYV4gGYRisD.jpg",
+            "alt": "Supernova shockwave image",
+            "author": {
+                "name": "Green Alien",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7R0oiz_yvVW4Wvm-oAHzFlEvbJlxGlvxTw&s",
+                "userSince": "2022",
+                "channel": "Star life"
+            },
+            "slideHeading": "Slide 10",
+            "slideText": "after a supernova shockwaves push gas and dust outward creating glowing rings and expanding clouds!"
+        },
+        {
+            "id": 11,
+            "title": "Solar flare",
+            "caption": "the sun releases energy in powerful bursts called solar flares.",
+            "dateTaken": "2025-03-14",
+            "thumbnail": "https://assets.newsweek.com/wp-content/uploads/2025/08/2519753-illustration-solar-flare.jpg",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2025/08/2519753-illustration-solar-flare.jpg",
+            "alt": "solar flare from the sun image",
+            "author": {
+                "name": "Galaxy explorer",
+                "image": "https://i.pinimg.com/236x/e7/2d/d1/e72dd1d43fd80e198d6f84846e6ca14e.jpg",
+                "userSince": "2023",
+                "channel": "Sun watch"
+            },
+            "slideHeading": "Slide 11",
+            "slideText": "Solar flares are burst of radiation from the sun that can affect space weather, sattellites, and communication"
+        },
+        {
+            "id": 12,
+            "title": "Aurora glow",
+            "caption": "Aurora paint the sky with moving waves of color.",
+            "dateTaken": "2025-03-19",
+            "thumbnail": "https://cdn.mos.cms.futurecdn.net/57jQMDN5MZLYfV8ps8HuZQ.jpg",
+            "image": "https://cdn.mos.cms.futurecdn.net/57jQMDN5MZLYfV8ps8HuZQ.jpg",
+            "alt": "aurora borealis image",
+            "author": {
+                "name": "Astro Feed",
+                "image": "https://i.pinimg.com/474x/17/54/87/17548777b3041a54e8f444d6a1a44fe3.jpg",
+                "userSince": "2021",
+                "channel": "Sky"
+            },
+            "slideHeading": "Slide 12",
+            "slideText": " auroras appear when charged particles from the sun interact with earth's atmosphere near the poles"
+        },
+        {
+            "id": 13,
+            "title": "Milky way band",
+            "caption": "the milky way streches across the sky",
+            "dateTaken": "2025-07-07",
+            "thumbnail": "https://sites.uni.edu/morgans/astro/course/Notes/section3/mw2014.jpg",
+            "image": "https://sites.uni.edu/morgans/astro/course/Notes/section3/mw2014.jpg",
+            "alt": "Milky way band image",
+            "author": {
+                "name": "Green Alien",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7R0oiz_yvVW4Wvm-oAHzFlEvbJlxGlvxTw&s",
+                "userSince": "2022",
+                "channel": "Sky"
+            },
+            "slideHeading": "Slide 13",
+            "slideText": "the milky way appears as a bright band due to us viewing the dense disk of our own galaxy from inside."
+        },
+        {
+            "id": 14,
+            "title": "Gas giant",
+            "caption": "massive planets made mostly of gas an example is jupiter!",
+            "dateTaken": "2025-01-24",
+            "thumbnail": "https://lh3.googleusercontent.com/proxy/vqtH-LTb0wRGqHVC2KfPek4Kqurcfj27F_Flqp3HXUHuNxumy5rGQaURcGmZtzWkk8I6SImrzzWsPHq_X9S2fCA8EOA_zQbYBJhsbfQqHQOZmYK6ci1vNw8-wpO7",
+            "image": "https://lh3.googleusercontent.com/proxy/vqtH-LTb0wRGqHVC2KfPek4Kqurcfj27F_Flqp3HXUHuNxumy5rGQaURcGmZtzWkk8I6SImrzzWsPHq_X9S2fCA8EOA_zQbYBJhsbfQqHQOZmYK6ci1vNw8-wpO7",
+            "alt": "Gas giant planets image",
+            "author": {
+                "name": "Galaxy explorer",
+                "image": "https://i.pinimg.com/236x/e7/2d/d1/e72dd1d43fd80e198d6f84846e6ca14e.jpg",
+                "userSince": "2023",
+                "channel": "Planet report"
+            },
+            "slideHeading": "Slide 14",
+            "slideText": "Gas giants planets have a thick atmosphere and storms that can last centuries!"
+        },
+        {
+            "id": 15,
+            "title": "Ice planet",
+            "caption": "Cold planets far from their stars with frozen surfaces",
+            "dateTaken": "2025-05-01",
+            "thumbnail": "https://cdn.sci.news/images/enlarge4/image_5122e-Ice-Giant.jpg",
+            "image": "https://cdn.sci.news/images/enlarge4/image_5122e-Ice-Giant.jpg",
+            "alt": "ice planets example image",
+            "author": {
+                "name": "Galaxy explorer",
+                "image": "https://i.pinimg.com/236x/e7/2d/d1/e72dd1d43fd80e198d6f84846e6ca14e.jpg",
+                "userSince": "2023",
+                "channel": "Planet report"
+            },
+            "slideHeading": "Slide 15",
+            "slideText": "theres a lot of ice giants planets one of them is Uranus and Neptune these are made of icy materials and have a blueish color"
+        }
+    ]
+}

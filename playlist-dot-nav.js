@@ -2,7 +2,7 @@ import { LitElement, html, css } from "lit";
 
 class PlaylistDotNav extends LitElement {
     static properties = {
-        total: { type: Number },
+        items: { type: Array },
         activeIndex: { type: Number }
     };
 
@@ -10,27 +10,35 @@ class PlaylistDotNav extends LitElement {
     .dots {
         display: flex;
         gap: 10px;
-        margin-top: 10px;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
     button{
-        width:12px;
-        height:12px;
-        border-radius:50%;
-        border:none;
-        background:#ccc;
-        cursor:pointer;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        background: transparent;
+        padding: 0;
+        cursor: pointer;
     }
 
-    button.active{
-        background:#2563eb;
+    button.active {
+        border-color: light-dark(#2563eb, #9eb8ff);
+    }
+
+    img {
+        width: 44px;
+        height: 44px;
+        object-fit: cover;
+        border-radius: 8px;
+        display: block;
     }
     `;
+
     constructor() {
         super();
-        this.total = 0;
-        this.activeIndex =0;
+        this.items = [];
+        this.activeIndex = 0;
     }
 
     selectDot(index) {
@@ -47,13 +55,15 @@ class PlaylistDotNav extends LitElement {
     render() {
         return html`
         <div class="dots">
-            ${Array.from({ length: this.total }, (_, i) => html`
-            <button
-            class="${this.activeIndex === i ? "active" : ""}"
-            @click=${() => this.selectDot(i)}
-            aria-label="Go to slide ${i + 1}"
-            ></button>
-            `)}
+           ${(this.items || []).map(
+            (item, index) => html`
+            <button class="${this.activeIndex === index ? "active" : ""}"
+            @click=${() => this.selectDot(index)}
+            title="Go to item ${index + 1}">
+        <img src="${item.thumbnail}" alt="${item.title} thumbnail" loading="lazy" />
+        </button>
+            `
+           )}
         </div>
         `;
     }
